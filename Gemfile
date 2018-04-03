@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.3.6'
 
-gem 'thin', '~> 1.7.0'
-gem 'sinatra', '~> 1.4.7'
-gem 'json', '~> 2.0.2'
+gem 'puma', '~> 3.11', '>= 3.11.3'
+gem 'sinatra', '~> 2.0', '>= 2.0.1'
+gem 'json', '~> 2.1'
 
 group :development do
-  gem 'foreman', '~> 0.82.0'
+  gem 'foreman', '~> 0.84.0'
 end
